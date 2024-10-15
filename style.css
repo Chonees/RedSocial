@@ -1,72 +1,72 @@
-body{
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    background: rgb(90, 104, 109);
-    margin: 20px auto;
-    text-align: center;
-    max-width: 50%;
- }
- 
- h1{
-     color: rgb(42, 45, 48);
- }
- .puppy{
-     width: 60px;
-     height: 60px;
-     background: url(puppy.jpg) no-repeat;
-     background-size: cover;
-     border-radius: 120%;
-     margin-bottom: 0px;
+body {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background: rgb(95, 104, 109);
+  margin: 20px auto;
+  text-align: center;
+  max-width: 50%;
+}
 
- button{
-     padding: 8px 12px;
-     margin: 5px;
-     cursor: pointer;
-     background-color: rgb(36, 87, 138);
-     color: rgb(8, 7, 7);
-     border: none;
-     border-radius: 5px;
-     transition: .5s all ease;
- }
- 
- button:hover{
-     background-color: rgb(12, 12, 12);
- }
- 
- form{
-     margin-top: 20px;
- }
- 
- label{
-     display: block;
-     margin-bottom: 5px;
- }
- 
- input,textarea{
-     width: 100%;
-     padding: 10px;
-     margin-bottom: 10px;
-     box-sizing: border-box;
-     font-size: 20px;
- }
- 
- ul{
-     list-style: none;
-     padding: 0;
- }
- 
- .postItem{
-     background-color: rgb(44, 49, 51);
-     border: 1px solid #000000;
-     border-radius: 10px;
-     padding: 10px;
-     margin-bottom: 20px;
- }
- 
- .editForm{
-     display: none;
-     margin-top: 10px;
- 
- }
+h1 {
+  color: rgb(42, 45, 48);
+}
+.puppy {
+  width: 60px;
+  height: 60px;
+  background: url(puppy.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 120%;
+  margin-bottom: 0px;
+}
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgb(36, 87, 138);
+  color: rgb(8, 7, 7);
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s all ease;
+}
+
+button:hover {
+  background-color: rgb(12, 12, 12);
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.postItem {
+  background-color: rgb(44, 49, 51);
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.editForm {
+  display: none;
+  margin-top: 10px;
+}
